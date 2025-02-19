@@ -177,9 +177,9 @@ function i(a) {
 
 
 // 示例使用
-token = "d919dee66bfa328acb8951309c3ccf9c"
-data = '{"dataApi":"dataQRForm","param":"{\\"dataQRFormId\\":\\"live_overview_dashboard_v2\\",\\"beginDate\\":\\"20241013\\",\\"endDate\\":\\"20241028\\",\\"orderColumn\\":\\"ds\\",\\"orderType\\":\\"1\\",\\"queryUserRole\\":\\"ALL\\",\\"time\\":1630598400000}"}'
+token = "90de4fe13e9c4be66692120558a24928"
+data = '{"url":"/tmall/manager/table.htm","jsonBody":"{\\"tab\\":\\"all\\",\\"pagination\\":{\\"current\\":1,\\"pageSize\\":20},\\"filter\\":{},\\"table\\":{}}"}'
 h = "12574478"
-j = 1730191665228
+j = 1737083929458
 
-console.log(i(token + "&" + j + "&" + h + "&" + data)); // 0b81877e1dc48bc915d3cc8af0ee9033
+console.log(i(token + "&" + j + "&" + h + "&" + data)); // 37b0a9a27c12492d1afb720a41fee404
